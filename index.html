@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Listas e Tabelas</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 30px;
+}
+
+/* LISTAS */
+ul {
+    background: #d9f2c4;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+ol {
+    background: #c4e3f2;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* TABELA */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+</style>
+</head>
+
+<body>
+
+<h2>Lista Não Ordenada</h2>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Banco de Dados</li>
+</ul>
+
+<h2>Lista Ordenada</h2>
+<ol>
+    <li>Planejamento</li>
+    <li>Desenvolvimento</li>
+    <li>Testes</li>
+    <li>Publicação</li>
+</ol>
+
+<h2>Lista Dentro de Lista</h2>
+<ul>
+    <li>Front-end
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </li>
+    <li>Back-end
+        <ul>
+            <li>PHP</li>
+            <li>Node.js</li>
+        </ul>
+    </li>
+</ul>
+
+<h2>Tabela de Alunos</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Curso</th>
+            <th>Nota</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Ana</td>
+            <td>20</td>
+            <td>Informática</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>22</td>
+            <td>Engenharia</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>19</td>
+            <td>Design</td>
+            <td>18</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
